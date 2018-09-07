@@ -1,0 +1,82 @@
+
+body {
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 30% 40% 30%;
+    background-color: #4C191B;
+}
+
+h1 {
+    grid-column: 2;
+    grid-row: 1;
+    color: #ECFFF8;
+    background-color: #C589E8;
+    border: 2px solid #963D5A;
+    padding: 5%;
+    margin: 10%;
+
+}
+
+#DialContainer {
+    grid-column: 2;
+    grid-row: 2;
+    background-color: #C589E8;
+    border: 10px solid #963D5A;
+}
+
+.dial {
+    width: auto;
+    
+    left: 50%;
+    background-color: aqua;
+}
+
+.Selector {
+    grid-column: 2;
+    grid-row: 3;
+    background-color: #C589E8;
+    padding: 5%;
+    margin: 10%;
+    border: 2px solid #963D5A;
+}
+
+.buttonS {
+    grid-column: 1;
+    grid-row: 2;
+    background-color: #C589E8;
+    background-color: #C589E8;
+    border: 2px solid #963D5A;
+    padding: 5%;
+    margin: 10%;
+}
+
+.buttonT {
+    grid-column: 3;
+    grid-row: 2;
+    background-color: #C589E8;
+    border: 2px solid #963D5A;
+    padding: 5%;
+    margin: 10%;
+}
+
+#TimerContainer {
+    grid-column: 3;
+    grid-row: 2;
+    width: 100%;
+    height: 100%;
+
+}
+
+#TimerDial {
+    
+}
+
+#StopwatchContainer {
+    grid-column: 1;
+    grid-row: 2;
+    width: 100%;
+    height: 100%;
+
+}

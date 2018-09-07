@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Clock project</title>
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1> Text for decsriing a dial </h1>
+    
+    <div id="DialContainer">
+        <div class="dial" id="Clock"> Clock </div>
+        <div class="dial" id="Timer"> Timer </div>
+        <div class="dial" id="Stopwatch"> Stopwatch </div>
+    </div>
+    <div class="Selector"> Utility box </div> <!-- A container for interacting with a dial class -->
+    
+    <!-- Button for switchong for the left clock-->
+    <svg id = "TimerContainer">
+        <a href="#" id="TimerButton"> Timer 
+        <circle cx = "50%";
+                cy = "50%";
+                r = "50";
+                fill = "#C589E8"; />
+            <text x = "50%";
+                y = "51.75%";
+                fill = "#ECFFF8"
+                text-anchor = "middle";
+                allignment-baseline = "niddle";>
+                &rarr;
+            </text>
+        </a>
+    </svg>
+    <!-- *** -->    
+
+    <!-- Button for switching to the right clock -->
+    <svg id = "StopwatchContainer">
+            <a href="#" id="StopwatchButton"> Timer 
+            <circle cx = "50%";
+                    cy = "50%";
+                    r = "50";
+                    fill = "#C589E8"; />
+            <text x = "50%";
+                  y = "51.75%";
+                  fill = "#ECFFF8"
+                  text-anchor = "middle";
+                  allignment-baseline = "niddle";>
+                &larr;
+            </text>
+            </a>
+        </svg>
+    <!-- *** -->
+    
+</body>
+</html>
