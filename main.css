@@ -27,10 +27,10 @@ h1 {
 }
 
 .dial {
-    width: auto;
+    width: 100%;
+    height: 100%;
     
-    left: 50%;
-    background-color: aqua;
+    background-color: #963D5A;    
 }
 
 .Selector {

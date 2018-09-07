@@ -6,16 +6,36 @@
     <title>Clock project</title>
     <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    
 </head>
 <body>
     <h1> Text for decsriing a dial </h1>
     
     <div id="DialContainer">
-        <div class="dial" id="Clock"> Clock </div>
-        <div class="dial" id="Timer"> Timer </div>
-        <div class="dial" id="Stopwatch"> Stopwatch </div>
+
+        <svg class="dial" id="Clock"></svg>
+        
+        
+<!--        <div class="dial" id="Timer" style="display: none;"> Timer 
+            <svg height = "auto" width = "auto">  
+                <circle cx = "50%";
+                        cy = "50%";
+                        r = "50";
+                        fill = "#ECFFF8"; />
+            </svg>                
+        </div>
+        
+        <div class="dial" id="Stopwatch" style="display: none;"> Stopwatch 
+            <svg height = "auto" width = "auto">  
+                <circle cx = "50%";
+                        cy = "50%";
+                        r = "50";
+                        fill = "#ECFFF8"; />
+            </svg>                
+        </div>
+    -->
     </div>
+    
     <div class="Selector"> Utility box </div> <!-- A container for interacting with a dial class -->
     
     <!-- Button for switchong for the left clock-->
@@ -55,4 +75,8 @@
     <!-- *** -->
     
 </body>
+
+<script src="snap.svg.js"></script>
+<script src="main.js"></script>
+
 </html>
