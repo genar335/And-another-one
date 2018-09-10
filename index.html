@@ -13,8 +13,40 @@
     
     <div id="DialContainer">
 
-        <svg class="dial" id="Clock"></svg>
-        
+        <div class="dial" id="Clock">
+            <svg height="auto" width="auto">
+                <circle cx = "50%";
+                        cy = "50%";
+                        r = "140";
+                        fill = "white"; />
+                <line id="SecondsHand" 
+                    x1 = "50%";
+                    y1 = "50%";
+                    x2 = "50%";
+                    y2 = "5%";
+                    style = "stroke: red;
+                    stroke-width: 2" />
+                <line id="MinutesHand" 
+                    x1 = "50%";
+                    y1 = "50%";
+                    x2 = "50%";
+                    y2 = "9%";
+                    style = "stroke: grey;
+                    stroke-width: 4" />
+                <line id="HoursHand" 
+                    x1 = "50%";
+                    y1 = "50%";
+                    x2 = "50%";
+                    y2 = "17%";
+                    style = "stroke: black;
+                    stroke-width: 10" />
+                <circle cx="50%";
+                        cy="50%";
+                        r="10";
+                        fill="black" />
+            </svg>
+       </div>
+
         
 <!--        <div class="dial" id="Timer" style="display: none;"> Timer 
             <svg height = "auto" width = "auto">  
