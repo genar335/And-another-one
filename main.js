@@ -44,3 +44,23 @@ var ClockHeight = Clock.clientHeight;
 
 document.getElementById("Clock").style.width = ClockHeight + "px";
 */
+
+var Clock = document.getElementById('Clock');
+
+var Date = new Date();
+var Time = Date.getTime();
+var Hours = Date.getHours();
+
+var Minutes = Date.getMinutes();
+
+var Seconds = Date.getSeconds();
+
+
+
+var HoursHandAngle = 0.5 * (60 * Hours + Minutes);
+var MinutesHandAngle = 6 * Minutes;
+var SecondsHandAngle = Seconds;
+
+document.getElementById('SecondsHand').style.transform = "rotate(" + SecondsHandAngle + "deg)";
+document.getElementById('MinutesHand').style.transform = "rotate(" + MinutesHandAngle + "deg)";
+document.getElementById("HoursHand").style.transform = "rotate("+HoursHandAngle+"deg)";
